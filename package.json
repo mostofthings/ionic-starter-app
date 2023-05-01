@@ -1,0 +1,32 @@
+{
+  "name": "whitewater-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "lint-and-fix": "eslint . --ext .vue,.js,.ts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@capacitor/app": "^4.1.1",
+    "@capacitor/core": "4.8.0",
+    "@capacitor/haptics": "^4.1.0",
+    "@capacitor/keyboard": "^4.1.1",
+    "@capacitor/status-bar": "^4.1.1",
+    "@ionic/vue": "^7.0.4",
+    "@ionic/vue-router": "^7.0.4",
+    "axios": "^1.4.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  }
+}
