@@ -6,12 +6,14 @@ module.exports = {
   'extends': [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
+    'plugin:vue/vue3-recommended'
   ],
+  parser: "vue-eslint-parser",
   parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: 'module',
+    parser: "@typescript-eslint/parser",
+    sourceType: "module"
   },
-  plugins: ['unused-imports'],
+  plugins: ['unused-imports', '@typescript-eslint'],
   rules: {
     'no-console': 'off',
     'no-debugger': 'off',
@@ -25,10 +27,11 @@ module.exports = {
     'no-unneeded-ternary': 'error',
     'import/prefer-default-export': 'off',
     'guard-for-in': 'error',
-    'object-curly-spacing': ['warn', 'always'],
+    'object-curly-spacing': ['error', 'always'],
     'comma-dangle': ['warn', 'always-multiline'],
     semi: 'warn',
     'arrow-body-style': 'off',
+    quotes: ["error", "single"],
     'no-multiple-empty-lines': ['error', { max: 2, maxBOF: 1 }],
     'lines-between-class-members': 'off',
     yoda: 'error',

@@ -16,15 +16,16 @@
     "@capacitor/status-bar": "^4.1.1",
     "@ionic/vue": "^7.0.4",
     "@ionic/vue-router": "^7.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
     "axios": "^1.4.0",
-    "eslint": "^8.39.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-vue": "^9.11.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
     "vue-tsc": "^1.4.2"

@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import './style.css';
 import App from './App.vue';
 import {
+  IonButton,
   IonCard,
   IonCardContent,
   IonCardHeader,
@@ -15,15 +16,16 @@ import '@ionic/core/css/ionic.bundle.css';
 
 const app = createApp(App).use(IonicVue);
 
-app.component('ion-content', IonContent);
-app.component('ion-input', IonInput);
-app.component('ion-card', IonCard);
-app.component('ion-card-content', IonCardContent);
-app.component('ion-card-title', IonCardTitle);
-app.component('ion-card-subtitle', IonCardSubtitle);
-app.component('ion-card-header', IonCardHeader);
-app.component('ion-grid', IonGrid);
-app.component('ion-row', IonRow);
-app.component('ion-col', IonCol);
+app.component('IonContent', IonContent);
+app.component('IonButton', IonButton);
+app.component('IonInput', IonInput);
+app.component('IonCard', IonCard);
+app.component('IonCardContent', IonCardContent);
+app.component('IonCardTitle', IonCardTitle);
+app.component('IonCardSubtitle', IonCardSubtitle);
+app.component('IonCardHeader', IonCardHeader);
+app.component('IonGrid', IonGrid);
+app.component('IonRow', IonRow);
+app.component('IonCol', IonCol);
 
 app.mount('#app');
