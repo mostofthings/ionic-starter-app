@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <h1>About</h1>
+    <h1>User Settings</h1>
   </ion-page>
 </template>
 
@@ -8,6 +8,8 @@
 
 </script>
 
-<style lang="scss" scoped>
+
+<style scoped lang="scss">
 
 </style>
+
