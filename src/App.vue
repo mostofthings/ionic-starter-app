@@ -1,11 +1,12 @@
 <template>
   <IonApp>
-    Starter App
+    <router-view />
   </IonApp>
 </template>
 
 <script setup lang="ts">
 import { IonApp } from '@ionic/vue';
+
 </script>
 
 

@@ -13,6 +13,7 @@ import {
   IonInput, IonRow,
 } from '@ionic/vue';
 import '@ionic/core/css/ionic.bundle.css';
+import { getRouter } from './router/router';
 
 const app = createApp(App).use(IonicVue);
 
@@ -27,5 +28,9 @@ app.component('IonCardHeader', IonCardHeader);
 app.component('IonGrid', IonGrid);
 app.component('IonRow', IonRow);
 app.component('IonCol', IonCol);
+
+const router = getRouter();
+
+app.use(router);
 
 app.mount('#app');

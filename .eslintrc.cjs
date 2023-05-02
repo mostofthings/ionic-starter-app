@@ -37,6 +37,7 @@ module.exports = {
     yoda: 'error',
     'no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'warn',
+    'vue/multi-word-component-names': 'warn',
     'unused-imports/no-unused-vars': [
       'warn',
       {
